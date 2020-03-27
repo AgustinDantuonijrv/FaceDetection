@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="-26dp"
+        android:src="@drawable/ai" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:textSize="40dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/FreeRecognitionSystemForEveryone"
+        android:textColor="@color/grey" />
+
+
+    <Button
+        android:id="@+id/addphoto"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="58dp"
+        android:text="@string/Foto"
+        android:textColor="@color/colorPrimary" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout"
+        android:weightSum="1">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+           >
+
+        <EditText
+            android:id="@+id/TxtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="@string/EnterEmail"
+            android:inputType="textEmailAddress" />
+
+         </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            >
+
+        <EditText
+            android:id="@+id/TxtPassword"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="@string/EnterPassword"
+            android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/botonRegistrar"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/Register" />
+
+        <Button
+            android:id="@+id/botonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/LogIn" />
+
+        <TextView
+            android:id="@+id/textViewCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+</RelativeLayout>

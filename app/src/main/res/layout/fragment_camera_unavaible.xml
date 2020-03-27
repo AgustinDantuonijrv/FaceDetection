@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:textSize="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingTop="100dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="100dp"
+            android:text="@string/camera_unavailable" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="383dp">
+
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="200dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:src="@drawable/brcpipe" />
+
+    </ScrollView>
+
+
+</LinearLayout>

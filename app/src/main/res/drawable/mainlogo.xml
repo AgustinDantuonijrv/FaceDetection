@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M352 8h-192a40.045 40.045 0 0 0 -40 40v416a40.045 40.045 0 0 0 40 40h192a40.045 40.045 0 0 0 40-40v-416a40.045 40.045 0 0 0 -40-40zm-49.758 16-4.8 24h-82.883l-4.8-24zm73.758 440a24.027 24.027 0 0 1 -24 24h-192a24.027 24.027 0 0 1 -24-24v-416a24.027 24.027 0 0 1 24-24h33.442l6.713 33.569a8 8 0 0 0 7.845 6.431h96a8 8 0 0 0 7.845-6.431l6.713-33.569h33.442a24.027 24.027 0 0 1 24 24z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M216 448h-56a8 8 0 0 0 0 16h56a8 8 0 0 0 0-16z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M248 448h-8a8 8 0 0 0 0 16h8a8 8 0 0 0 0-16z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M256 176a80.006 80.006 0 1 0 80 80 80.091 80.091 0 0 0 -80-80zm0 144a63.457 63.457 0 0 1 -38.4-12.787c-0.549-0.413-1.071-0.852-1.6-1.28v-1.933a24.027 24.027 0 0 1 24-24h32a24.027 24.027 0 0 1 24 24v1.934c-0.533 0.427 -1.054 0.865 -1.6 1.278a63.456 63.456 0 0 1 -38.4 12.788zm-16-80a16 16 0 1 1 16 16 16.019 16.019 0 0 1 -16-16zm69.757 50.815a40.1 40.1 0 0 0 -32.967-26.515 32 32 0 1 0 -41.58 0 40.1 40.1 0 0 0 -32.967 26.518 64 64 0 1 1 107.514 0z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M160 192a8 8 0 0 0 8-8v-16h16a8 8 0 0 0 0-16h-24a8 8 0 0 0 -8 8v24a8 8 0 0 0 8 8z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M352 152h-24a8 8 0 0 0 0 16h16v16a8 8 0 0 0 16 0v-24a8 8 0 0 0 -8-8z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M352 320a8 8 0 0 0 -8 8v16h-16a8 8 0 0 0 0 16h24a8 8 0 0 0 8-8v-24a8 8 0 0 0 -8-8z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M160 360h24a8 8 0 0 0 0-16h-16v-16a8 8 0 0 0 -16 0v24a8 8 0 0 0 8 8z" />
+</vector>
